@@ -348,6 +348,8 @@ GameObject:
   - component: {fileID: 2453113842641918154}
   - component: {fileID: 2453113842641918159}
   - component: {fileID: 2453113842641918158}
+  - component: {fileID: 2453113842641918161}
+  - component: {fileID: 2453113842641918160}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -1681,8 +1683,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Horrigan (V.O)
 
-    Out of everyone out there, I need to find one
-    man. '
+    Out of everyone out there, I need to find one man. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3342,7 +3343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: "Preacher\r\n(Muttering)\r\nCleanblood heretic \u2026\r"
+  storyText: "Preacher\r\n(Muttering)\r\nCleanblood dog \u2026\r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3615,8 +3616,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Preacher
 
-    And we shall wash over the world of Normals and end
-    our persecution by their wasteful hands!'
+    And we shall wash over the world of Normals and end our
+    persecution by their wasteful hands!'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3715,6 +3716,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 2453113842641918159}
   - {fileID: 2453113842641918158}
+  - {fileID: 2453113842641918160}
   suppressAllAutoSelections: 0
 --- !u!114 &2453113842641918153
 MonoBehaviour:
@@ -3743,6 +3745,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 2453113842641918157}
   - {fileID: 2453113842641918156}
+  - {fileID: 2453113842641918161}
   suppressAllAutoSelections: 0
 --- !u!114 &2453113842641918154
 MonoBehaviour:
@@ -3885,6 +3888,44 @@ MonoBehaviour:
   images:
   - {fileID: 1898246733}
   sprite: {fileID: 21300000, guid: 6bd941451618da742bc87d22bed44c98, type: 3}
+--- !u!114 &2453113842641918160
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 131
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Scene4-B
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &2453113842641918161
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Scene4-A
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1001 &6320798536180091549
 PrefabInstance:
   m_ObjectHideFlags: 0

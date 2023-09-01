@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: 2453113842641918107}
   - component: {fileID: 2453113842641918106}
   - component: {fileID: 2453113842641918105}
+  - component: {fileID: 2453113842641918127}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -401,8 +402,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2453113842641918033}
+  selectedCommands:
+  - {fileID: 2453113842641918108}
   variables:
   - {fileID: 965841003}
   - {fileID: 965841002}
@@ -1345,6 +1348,7 @@ MonoBehaviour:
   - {fileID: 2453113842641918107}
   - {fileID: 2453113842641918106}
   - {fileID: 2453113842641918105}
+  - {fileID: 2453113842641918127}
   suppressAllAutoSelections: 0
 --- !u!114 &2453113842641918034
 MonoBehaviour:
@@ -3313,6 +3317,25 @@ MonoBehaviour:
   stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &2453113842641918127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965840997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 107
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Menu
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1001 &6320798536180091549
 PrefabInstance:
   m_ObjectHideFlags: 0
